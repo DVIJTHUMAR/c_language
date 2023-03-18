@@ -11,12 +11,14 @@ main(){
 	if(a>=1){
 		
 		printf("positive");
-	}else if(a<0){
+			
+			}else if(a<0){
 		
-		printf("nagetive");
-	}else{
+				printf("nagetive");
+	
+					}else{
 		
-		printf("zero");
+						printf("zero");
 	}
 	
 }
