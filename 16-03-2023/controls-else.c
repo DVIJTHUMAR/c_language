@@ -13,8 +13,9 @@ main(){
 	if(a<b){
 		
 		printf("A is min");
-	}else {
+ 			
+			 }else {
 		
-		printf("B is min");
+				printf("B is min");
 	}
 }
