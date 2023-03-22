@@ -7,6 +7,10 @@ main(){
 	printf("Enter Base-salary :- ");
 	scanf("%d",&base_salary);
 	
+	hra=base_salary * 10 / 100;
+	da=base_salary * 5 / 100;
+	ta=base_salary * 8 / 100;
+	
 	gross_salary=base_salary+hra+da+ta;
 	
 	printf("GROSS_SALARY %d",gross_salary);

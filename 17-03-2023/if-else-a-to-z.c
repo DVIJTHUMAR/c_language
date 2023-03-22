@@ -8177,23 +8177,16 @@ main(){
 										}
 										
 									}else {
-										
 										if (j>k){
 											
 											J
-											
 										}else {
 											
 											K
-											
 										}
-										
 									}
-									
 								}
-								
 							}
-							printf("Enter Value Of F :- ");
 						}
 					}		
 				}	
