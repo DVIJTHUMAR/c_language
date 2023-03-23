@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 
 main(){
 	
-	char a;
+	char a[3];
 	
 	printf("Enter char for day :- ");
 	scanf("%s",&a);
 	
-	switch(a){	
+	switch('a'){	
 		
-		case 'S': 
+		case 'sa': 
 			printf("Sunday");
 			break;
 		case 'm':
