@@ -4,15 +4,18 @@ main(){
 	
 	// leap year
 	
-	int count=2000, n;
+	int s=2000, e=3000;
 	
-	printf("Enter value N :- ");
-	scanf("%d",&n);
+	printf("Enter value S-YEAR :- ");
+	scanf("%d",&s);
 	
-	while(count <= n){
+	printf("Enter value E-YEAR :- ");
+	scanf("%d",&e);
+	
+	while(s <= e){
 		
-		printf("%d \n",count);
-		count+=4; //count = count + 4
+		printf("%d \n",s);
+		s+=4; //s = s + 4
 		
 	}
 	

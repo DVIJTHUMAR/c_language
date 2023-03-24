@@ -3,14 +3,14 @@
 
 main(){
 	
-	char a[3];
+	char a;
 	
 	printf("Enter char for day :- ");
 	scanf("%s",&a);
 	
-	switch('a'){	
+	switch(a){	
 		
-		case 'sa': 
+		case 'S': 
 			printf("Sunday");
 			break;
 		case 'm':
