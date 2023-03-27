@@ -2,17 +2,17 @@
 
 main(){
 	
-	//1 to n
+	// Odd
 	
-	int count=1, n;
+	int count, n;
 	
 	printf("Enter value N :- ");
 	scanf("%d",&n);
 	
-	do {
+	for(count=1; count <= n; count+=2){
 		
 		printf("%d \n",count);
-		count++; //count = count + 1
 		
-	 } while(count <= n);
+	}
+	
 }

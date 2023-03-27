@@ -9,10 +9,10 @@ main(){
 	printf("Enter value N :- ");
 	scanf("%d",&n);
 	
-	do {
+	for(count=1; count <= n; count++){
 		
 		printf("%d \n",count);
-		count++; //count = count + 1
 		
-	 } while(count <= n);
+	}
+	
 }
