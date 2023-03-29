@@ -2,6 +2,8 @@
 
 main(){
 	
+//factorial number
+
 	int n, x=1, sum=1;
 	
 	printf("Enter value N :- ");
