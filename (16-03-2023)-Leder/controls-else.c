@@ -14,8 +14,7 @@ main(){
 		
 		printf("A is min");
  			
-			 }else {
-		
-				printf("B is min");
+	}else {	
+		printf("B is min");
 	}
 }
