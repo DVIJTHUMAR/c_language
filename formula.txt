@@ -1,0 +1,5 @@
+area of circle:- πr2
+area of sqare:- 4*l
+area of ractangle:- l*w
+area of triangle:- h*b/2
+area of interest:- p*(1+r*t)
