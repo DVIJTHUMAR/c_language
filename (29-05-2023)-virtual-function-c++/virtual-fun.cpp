@@ -3,7 +3,7 @@ using namespace std;
 
 class Base{
 	public:
-		void print(){
+	virtual	void print(){
 			
 			cout<<"i am Base"<<endl;
 		}
@@ -12,7 +12,7 @@ class Base{
 class Child : public Base
 {
 	public:
-	virtual	void print(){
+		void print(){
 			
 			cout<<"i am Child"<<endl;
 		}
@@ -25,5 +25,5 @@ main(){
 	p = &c1;
 	p->print();
 	
-	c1.print();
+//	c1.print();
 }
